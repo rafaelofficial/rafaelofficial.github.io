@@ -1,0 +1,48 @@
+/** Início da formatação de estilos...*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.img-custom {
+	margin-top: 90px;
+	border: 1px solid #000;
+	border-radius: 50%;
+}
+
+#section-center-img-name {
+	text-align: center;
+}
+
+#section-center-img-name h1 {
+	display: block;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 4em;
+    margin: 10px 0;
+}
+
+.blockquote-msg {
+	font-size: large;
+	font-weight: bold;
+}
+
+#section-skill-locale {
+	margin: 15px auto;
+	text-align: center;
+	font-size: large;
+}
+
+#footer {
+	margin: 10px auto;
+	font-size: 23px;
+	text-align: center;
+}
