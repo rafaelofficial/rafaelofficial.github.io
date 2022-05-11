@@ -1,6 +1,10 @@
 /** Início da formatação de estilos...*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+	--primary-word-color: #ddd9ce;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -9,15 +13,21 @@
 
 body {
 	font-family: 'Ubuntu Mono', monospace;
-	background: radial-gradient(ellipse at top, #ddd9ce, transparent),
-		radial-gradient(ellipse at bottom, #fff, transparent)
-	;
+}
+
+#body-image {
+	background-image: url(../assets/img/wallpaper.jpg);
+	background-size: 100%;
 }
 
 .img-custom {
 	margin-top: 80px;
-	border: 1px solid #000;
+	border: 1px solid var(--primary-word-color);
 	border-radius: 50%;
+}
+
+.name-h1, .blockquote-msg, #section-skill-locale, #footer {
+	color: var(--primary-word-color);
 }
 
 #section-central-img-name {
@@ -67,8 +77,8 @@ ul {
 
 li {
 	border-radius: 100%;
-	border: 3px solid #000;
-	color: #000;
+	border: 2px solid var(--primary-word-color);
+	color: var(--primary-word-color);
 	margin: 5px;
 	display: inline-block;
 	list-style: none;
@@ -80,11 +90,11 @@ li:hover {
 	-webkit-transition: 500ms;
 	-moz-transition: 500ms;
 	transition: 500ms;
-	background: rgba(177, 173, 173, 0.8);
+	background: rgba(8, 8, 8, 0.8);
 }
 
 a {
-	color: #000;
+	color: var(--primary-word-color);
 	padding: 15px;
 	text-decoration: none;
 }
@@ -98,7 +108,7 @@ a:hover {
 }
 
 #link-instagram:hover {
-	color: #000;
+	color: var(--primary-word-color);
 }
 
 #footer {
